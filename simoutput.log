@@ -68,7 +68,7 @@ asim  +access +w -O2 -dbg -pli libgpi endian_swapper
 # KERNEL: ASDB file was created in location /var/lib/jenkins/workspace/cocotb_regression_aldec_branch/examples/endian_swapper/tests/sim_build/dataset.asdb
 run -all
      0.00ns [34mINFO    [39m cocotb.gpi                                  gpi_embed.c:186  in embed_sim_init                  [34mPython interpreter initialised and cocotb loaded![39m
-     0.00ns [34mINFO    [39m cocotb.gpi                                  __init__.py:99   in _initialise_testbench           [34mSeeding Python random module with 1387270327[39m
+     0.00ns [34mINFO    [39m cocotb.gpi                                  __init__.py:99   in _initialise_testbench           [34mSeeding Python random module with 1387270969[39m
      0.00ns [34mINFO    [39m cocotb.gpi                                  __init__.py:113  in _initialise_testbench           [34mRunning tests with CoCoTB-0.4 from /var/lib/jenkins/workspace/cocotb_regression_aldec_branch[39m
 {'access': True, 'w': True}
      0.00ns [34mINFO    [39m cocotb.regression                         regression.py:118  in initialise                      [34mFound test test_endian_swapper.run_test_001[39m
@@ -104,7 +104,7 @@ run -all
      0.00ns [34mINFO    [39m cocotb.regression                         regression.py:118  in initialise                      [34mFound test test_endian_swapper.run_test_031[39m
      0.00ns [34mINFO    [39m cocotb.regression                         regression.py:118  in initialise                      [34mFound test test_endian_swapper.run_test_032[39m
      0.00ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 1/32:[39m[49m run_test_001[39m
-     0.00ns [34mINFO    [39m ..coroutine._my_test.0x7f5c14afd390       decorators.py:181  in send                            [34mStarting test: "run_test_001"
+     0.00ns [34mINFO    [39m ..coroutine._my_test.0x7f1eb4afd390       decorators.py:181  in send                            [34mStarting test: "run_test_001"
                                                                                                                                Description: Automatically generated test
                                                                                                                                
                                                                                                                                	backpressure_inserter: None
@@ -113,21 +113,21 @@ run -all
                                                                                                                                	idle_inserter: None
                                                                                                                                [39m
      0.00ns [34mINFO    [39m cocotb.gpi                                  gpi_embed.c:215  in embed_sim_init                  [34m_initialise_testbench successful[39m
-    85.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 46 bytes[39m
-   245.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 118 bytes[39m
-   435.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 141 bytes[39m
-   525.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 63 bytes[39m
-   635.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 75 bytes[39m
-   775.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 101 bytes[39m
-   935.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 120 bytes[39m
-  1005.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 47 bytes[39m
-  1105.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 71 bytes[39m
-  1255.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 110 bytes[39m
-  1315.00ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
-  1315.00ns [34mINFO    [39m ..coroutine.run_test.0x7f5c14b03e90       decorators.py:112  in send                            [34m[39m
-  1315.00ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_001[39m
-  1315.00ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 2/32:[39m[49m run_test_002[39m
-  1315.00ns [34mINFO    [39m ..coroutine._my_test.0x7f5c14afd250       decorators.py:181  in send                            [34mStarting test: "run_test_002"
+   215.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 146 bytes[39m
+   405.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 137 bytes[39m
+   525.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 83 bytes[39m
+   665.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 104 bytes[39m
+   815.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 105 bytes[39m
+   965.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 112 bytes[39m
+  1005.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 23 bytes[39m
+  1065.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 37 bytes[39m
+  1155.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 63 bytes[39m
+  1205.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 28 bytes[39m
+  1265.00ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
+  1265.00ns [34mINFO    [39m ..coroutine.run_test.0x7f1eb4b03e90       decorators.py:112  in send                            [34m[39m
+  1265.00ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_001[39m
+  1265.00ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 2/32:[39m[49m run_test_002[39m
+  1265.00ns [34mINFO    [39m ..coroutine._my_test.0x7f1eb4afd250       decorators.py:181  in send                            [34mStarting test: "run_test_002"
                                                                                                                                Description: Automatically generated test
                                                                                                                                
                                                                                                                                	backpressure_inserter: None
@@ -135,21 +135,21 @@ run -all
                                                                                                                                	data_in: random_packet_sizes (random string data of a random length)
                                                                                                                                	idle_inserter: wave ()
                                                                                                                                [39m
-  1470.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 65 bytes[39m
-  1760.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 139 bytes[39m
-  1980.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 92 bytes[39m
-  2120.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 58 bytes[39m
-  2290.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 77 bytes[39m
-  2540.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 142 bytes[39m
-  2750.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 97 bytes[39m
-  2870.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 30 bytes[39m
-  2950.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 49 bytes[39m
-  3100.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 45 bytes[39m
-  3160.00ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
-  3160.00ns [34mINFO    [39m ..coroutine.run_test.0x7f5c14b17890       decorators.py:112  in send                            [34m[39m
-  3160.00ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_002[39m
-  3160.00ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 3/32:[39m[49m run_test_003[39m
-  3160.00ns [34mINFO    [39m ..coroutine._my_test.0x7f5c14afd110       decorators.py:181  in send                            [34mStarting test: "run_test_003"
+  1300.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 6 bytes[39m
+  1590.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 138 bytes[39m
+  1690.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 33 bytes[39m
+  1850.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 88 bytes[39m
+  1940.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 24 bytes[39m
+  2010.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 43 bytes[39m
+  2160.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 69 bytes[39m
+  2180.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 5 bytes[39m
+  2200.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 4 bytes[39m
+  2330.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 46 bytes[39m
+  2390.00ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
+  2390.00ns [34mINFO    [39m ..coroutine.run_test.0x7f1eb4b1ab90       decorators.py:112  in send                            [34m[39m
+  2390.00ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_002[39m
+  2390.00ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 3/32:[39m[49m run_test_003[39m
+  2390.00ns [34mINFO    [39m ..coroutine._my_test.0x7f1eb4afd110       decorators.py:181  in send                            [34mStarting test: "run_test_003"
                                                                                                                                Description: Automatically generated test
                                                                                                                                
                                                                                                                                	backpressure_inserter: None
@@ -157,21 +157,21 @@ run -all
                                                                                                                                	data_in: random_packet_sizes (random string data of a random length)
                                                                                                                                	idle_inserter: intermittent_single_cycles (Generator to intermittently insert a single cycle pulse)
                                                                                                                                [39m
-  3335.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 108 bytes[39m
-  3495.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 111 bytes[39m
-  3575.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 43 bytes[39m
-  3625.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 28 bytes[39m
-  3825.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 130 bytes[39m
-  3855.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 13 bytes[39m
-  4005.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 90 bytes[39m
-  4215.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 145 bytes[39m
-  4425.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 141 bytes[39m
-  4635.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 148 bytes[39m
-  4695.00ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
-  4695.00ns [34mINFO    [39m ..coroutine.run_test.0x7f5c14d0a890       decorators.py:112  in send                            [34m[39m
-  4695.00ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_003[39m
-  4695.00ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 4/32:[39m[49m run_test_004[39m
-  4695.00ns [34mINFO    [39m ..coroutine._my_test.0x7f5c14afdd90       decorators.py:181  in send                            [34mStarting test: "run_test_004"
+  2445.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 17 bytes[39m
+  2525.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 56 bytes[39m
+  2695.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 112 bytes[39m
+  2755.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 35 bytes[39m
+  2805.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 21 bytes[39m
+  2965.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 109 bytes[39m
+  3005.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 24 bytes[39m
+  3185.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 122 bytes[39m
+  3405.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 147 bytes[39m
+  3455.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 28 bytes[39m
+  3515.00ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
+  3515.00ns [34mINFO    [39m ..coroutine.run_test.0x7f1eb4d08c10       decorators.py:112  in send                            [34m[39m
+  3515.00ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_003[39m
+  3515.00ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 4/32:[39m[49m run_test_004[39m
+  3515.00ns [34mINFO    [39m ..coroutine._my_test.0x7f1eb4afdd90       decorators.py:181  in send                            [34mStarting test: "run_test_004"
                                                                                                                                Description: Automatically generated test
                                                                                                                                
                                                                                                                                	backpressure_inserter: None
@@ -179,21 +179,21 @@ run -all
                                                                                                                                	data_in: random_packet_sizes (random string data of a random length)
                                                                                                                                	idle_inserter: random_50_percent (50% duty cycle with random width)
                                                                                                                                [39m
-  4960.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 123 bytes[39m
-  5240.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 122 bytes[39m
-  5590.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 83 bytes[39m
-  5830.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 98 bytes[39m
-  5870.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 19 bytes[39m
-  6030.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 52 bytes[39m
-  6050.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 4 bytes[39m
-  6110.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 39 bytes[39m
-  6260.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 15 bytes[39m
-  6490.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 119 bytes[39m
-  6550.00ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
-  6550.00ns [34mINFO    [39m ..coroutine.run_test.0x7f5c149b3d50       decorators.py:112  in send                            [34m[39m
-  6550.00ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_004[39m
-  6550.00ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 5/32:[39m[49m run_test_005[39m
-  6550.00ns [34mINFO    [39m ..coroutine._my_test.0x7f5c14afd610       decorators.py:181  in send                            [34mStarting test: "run_test_005"
+  3600.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 48 bytes[39m
+  3960.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 137 bytes[39m
+  4270.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 133 bytes[39m
+  4640.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 107 bytes[39m
+  4680.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 19 bytes[39m
+  4840.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 56 bytes[39m
+  5230.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 132 bytes[39m
+  5460.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 91 bytes[39m
+  5620.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 52 bytes[39m
+  5890.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 113 bytes[39m
+  5950.00ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
+  5950.00ns [34mINFO    [39m ..coroutine.run_test.0x7f1eb4d0a410       decorators.py:112  in send                            [34m[39m
+  5950.00ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_004[39m
+  5950.00ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 5/32:[39m[49m run_test_005[39m
+  5950.00ns [34mINFO    [39m ..coroutine._my_test.0x7f1eb4afd610       decorators.py:181  in send                            [34mStarting test: "run_test_005"
                                                                                                                                Description: Automatically generated test
                                                                                                                                
                                                                                                                                	backpressure_inserter: None
@@ -201,21 +201,21 @@ run -all
                                                                                                                                	data_in: random_packet_sizes (random string data of a random length)
                                                                                                                                	idle_inserter: None
                                                                                                                                [39m
-  6605.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 21 bytes[39m
-  6695.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 57 bytes[39m
-  6785.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 57 bytes[39m
-  6815.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 16 bytes[39m
-  6865.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 32 bytes[39m
-  7045.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 135 bytes[39m
-  7105.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 37 bytes[39m
-  7295.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 142 bytes[39m
-  7395.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 69 bytes[39m
-  7575.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 133 bytes[39m
-  7635.00ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
-  7635.00ns [34mINFO    [39m ..coroutine.run_test.0x7f5c14d0d910       decorators.py:112  in send                            [34m[39m
-  7635.00ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_005[39m
-  7635.00ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 6/32:[39m[49m run_test_006[39m
-  7635.00ns [34mINFO    [39m ..coroutine._my_test.0x7f5c14af9f90       decorators.py:181  in send                            [34mStarting test: "run_test_006"
+  6155.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 142 bytes[39m
+  6245.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 64 bytes[39m
+  6285.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 17 bytes[39m
+  6485.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 150 bytes[39m
+  6625.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 101 bytes[39m
+  6685.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 40 bytes[39m
+  6805.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 83 bytes[39m
+  6995.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 141 bytes[39m
+  7065.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 43 bytes[39m
+  7135.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 43 bytes[39m
+  7195.00ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
+  7195.00ns [34mINFO    [39m ..coroutine.run_test.0x7f1eb4d0ab10       decorators.py:112  in send                            [34m[39m
+  7195.00ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_005[39m
+  7195.00ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 6/32:[39m[49m run_test_006[39m
+  7195.00ns [34mINFO    [39m ..coroutine._my_test.0x7f1eb4af9f90       decorators.py:181  in send                            [34mStarting test: "run_test_006"
                                                                                                                                Description: Automatically generated test
                                                                                                                                
                                                                                                                                	backpressure_inserter: None
@@ -223,21 +223,21 @@ run -all
                                                                                                                                	data_in: random_packet_sizes (random string data of a random length)
                                                                                                                                	idle_inserter: wave ()
                                                                                                                                [39m
-  7690.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 10 bytes[39m
-  7740.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 19 bytes[39m
-  7760.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 5 bytes[39m
-  7960.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 87 bytes[39m
-  7990.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 15 bytes[39m
-  8090.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 34 bytes[39m
-  8210.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 53 bytes[39m
-  8370.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 73 bytes[39m
-  8660.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 129 bytes[39m
-  8850.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 90 bytes[39m
-  8910.00ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
-  8910.00ns [34mINFO    [39m ..coroutine.run_test.0x7f5c14d0d0d0       decorators.py:112  in send                            [34m[39m
-  8910.00ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_006[39m
-  8910.00ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 7/32:[39m[49m run_test_007[39m
-  8910.00ns [34mINFO    [39m ..coroutine._my_test.0x7f5c14af9e50       decorators.py:181  in send                            [34mStarting test: "run_test_007"
+  7420.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 103 bytes[39m
+  7510.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 34 bytes[39m
+  7630.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 49 bytes[39m
+  7790.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 81 bytes[39m
+  7880.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 20 bytes[39m
+  8060.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 93 bytes[39m
+  8240.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 84 bytes[39m
+  8270.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 13 bytes[39m
+  8390.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 34 bytes[39m
+  8580.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 82 bytes[39m
+  8640.00ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
+  8640.00ns [34mINFO    [39m ..coroutine.run_test.0x7f1eb4b1a190       decorators.py:112  in send                            [34m[39m
+  8640.00ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_006[39m
+  8640.00ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 7/32:[39m[49m run_test_007[39m
+  8640.00ns [34mINFO    [39m ..coroutine._my_test.0x7f1eb4af9e50       decorators.py:181  in send                            [34mStarting test: "run_test_007"
                                                                                                                                Description: Automatically generated test
                                                                                                                                
                                                                                                                                	backpressure_inserter: None
@@ -245,21 +245,21 @@ run -all
                                                                                                                                	data_in: random_packet_sizes (random string data of a random length)
                                                                                                                                	idle_inserter: intermittent_single_cycles (Generator to intermittently insert a single cycle pulse)
                                                                                                                                [39m
-  8945.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 6 bytes[39m
-  9135.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 136 bytes[39m
-  9355.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 149 bytes[39m
-  9525.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 117 bytes[39m
-  9645.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 73 bytes[39m
-  9795.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 99 bytes[39m
-  9875.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 45 bytes[39m
- 10045.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 114 bytes[39m
- 10095.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 23 bytes[39m
- 10135.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 19 bytes[39m
- 10195.00ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
- 10195.00ns [34mINFO    [39m ..coroutine.run_test.0x7f5c14d18410       decorators.py:112  in send                            [34m[39m
- 10195.00ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_007[39m
- 10195.00ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 8/32:[39m[49m run_test_008[39m
- 10195.00ns [34mINFO    [39m ..coroutine._my_test.0x7f5c14afd9d0       decorators.py:181  in send                            [34mStarting test: "run_test_008"
+  8755.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 69 bytes[39m
+  8805.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 21 bytes[39m
+  8885.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 41 bytes[39m
+  9035.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 100 bytes[39m
+  9175.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 96 bytes[39m
+  9295.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 79 bytes[39m
+  9365.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 37 bytes[39m
+  9545.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 126 bytes[39m
+  9615.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 43 bytes[39m
+  9645.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 6 bytes[39m
+  9705.00ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
+  9705.00ns [34mINFO    [39m ..coroutine.run_test.0x7f1eb4d16050       decorators.py:112  in send                            [34m[39m
+  9705.00ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_007[39m
+  9705.00ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 8/32:[39m[49m run_test_008[39m
+  9705.00ns [34mINFO    [39m ..coroutine._my_test.0x7f1eb4afd9d0       decorators.py:181  in send                            [34mStarting test: "run_test_008"
                                                                                                                                Description: Automatically generated test
                                                                                                                                
                                                                                                                                	backpressure_inserter: None
@@ -267,21 +267,21 @@ run -all
                                                                                                                                	data_in: random_packet_sizes (random string data of a random length)
                                                                                                                                	idle_inserter: random_50_percent (50% duty cycle with random width)
                                                                                                                                [39m
- 10450.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 94 bytes[39m
- 10630.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 70 bytes[39m
- 10740.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 74 bytes[39m
- 10940.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 40 bytes[39m
- 11310.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 146 bytes[39m
- 11530.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 89 bytes[39m
- 11660.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 17 bytes[39m
- 11930.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 97 bytes[39m
- 12100.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 78 bytes[39m
- 12320.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 84 bytes[39m
- 12380.00ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
- 12380.00ns [34mINFO    [39m ..coroutine.run_test.0x7f5c14cf0d50       decorators.py:112  in send                            [34m[39m
- 12380.00ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_008[39m
- 12380.00ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 9/32:[39m[49m run_test_009[39m
- 12380.00ns [34mINFO    [39m ..coroutine._my_test.0x7f5c14af9d10       decorators.py:181  in send                            [34mStarting test: "run_test_009"
+  9750.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 14 bytes[39m
+  9800.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 30 bytes[39m
+ 10180.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 129 bytes[39m
+ 10490.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 124 bytes[39m
+ 10740.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 85 bytes[39m
+ 10790.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 31 bytes[39m
+ 11200.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 137 bytes[39m
+ 11300.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 70 bytes[39m
+ 11450.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 15 bytes[39m
+ 11600.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 54 bytes[39m
+ 11660.00ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
+ 11660.00ns [34mINFO    [39m ..coroutine.run_test.0x7f1eb4d1d7d0       decorators.py:112  in send                            [34m[39m
+ 11660.00ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_008[39m
+ 11660.00ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 9/32:[39m[49m run_test_009[39m
+ 11660.00ns [34mINFO    [39m ..coroutine._my_test.0x7f1eb4af9d10       decorators.py:181  in send                            [34mStarting test: "run_test_009"
                                                                                                                                Description: Automatically generated test
                                                                                                                                
                                                                                                                                	backpressure_inserter: wave ()
@@ -289,21 +289,21 @@ run -all
                                                                                                                                	data_in: random_packet_sizes (random string data of a random length)
                                                                                                                                	idle_inserter: None
                                                                                                                                [39m
- 12515.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 50 bytes[39m
- 12695.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 88 bytes[39m
- 12805.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 48 bytes[39m
- 12865.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 3 bytes[39m
- 12885.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 1 bytes[39m
- 13045.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 79 bytes[39m
- 13315.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 115 bytes[39m
- 13495.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 84 bytes[39m
- 13735.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 121 bytes[39m
- 13835.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 12 bytes[39m
- 13895.00ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
- 13895.00ns [34mINFO    [39m ..coroutine.run_test.0x7f5c14d18590       decorators.py:112  in send                            [34m[39m
- 13895.00ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_009[39m
- 13895.00ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 10/32:[39m[49m run_test_010[39m
- 13895.00ns [34mINFO    [39m ..coroutine._my_test.0x7f5c14b00410       decorators.py:181  in send                            [34mStarting test: "run_test_010"
+ 11735.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 18 bytes[39m
+ 11865.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 55 bytes[39m
+ 11945.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 25 bytes[39m
+ 12085.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 70 bytes[39m
+ 12265.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 58 bytes[39m
+ 12305.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 30 bytes[39m
+ 12405.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 25 bytes[39m
+ 12575.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 84 bytes[39m
+ 12765.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 91 bytes[39m
+ 12995.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 120 bytes[39m
+ 13055.00ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
+ 13055.00ns [34mINFO    [39m ..coroutine.run_test.0x7f1eb4d0d090       decorators.py:112  in send                            [34m[39m
+ 13055.00ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_009[39m
+ 13055.00ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 10/32:[39m[49m run_test_010[39m
+ 13055.00ns [34mINFO    [39m ..coroutine._my_test.0x7f1eb4b00410       decorators.py:181  in send                            [34mStarting test: "run_test_010"
                                                                                                                                Description: Automatically generated test
                                                                                                                                
                                                                                                                                	backpressure_inserter: wave ()
@@ -311,21 +311,21 @@ run -all
                                                                                                                                	data_in: random_packet_sizes (random string data of a random length)
                                                                                                                                	idle_inserter: wave ()
                                                                                                                                [39m
- 14120.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 76 bytes[39m
- 14170.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 5 bytes[39m
- 14190.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 1 bytes[39m
- 14670.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 146 bytes[39m
- 14990.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 123 bytes[39m
- 15150.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 63 bytes[39m
- 15250.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 80 bytes[39m
- 15380.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 33 bytes[39m
- 15560.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 64 bytes[39m
- 15840.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 138 bytes[39m
- 15900.00ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
- 15900.00ns [34mINFO    [39m ..coroutine.run_test.0x7f5c14d088d0       decorators.py:112  in send                            [34m[39m
- 15900.01ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_010[39m
- 15900.01ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 11/32:[39m[49m run_test_011[39m
- 15900.01ns [34mINFO    [39m ..coroutine._my_test.0x7f5c14b00550       decorators.py:181  in send                            [34mStarting test: "run_test_011"
+ 13180.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 29 bytes[39m
+ 13270.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 36 bytes[39m
+ 13340.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 22 bytes[39m
+ 13540.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 73 bytes[39m
+ 13730.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 103 bytes[39m
+ 13800.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 6 bytes[39m
+ 14010.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 105 bytes[39m
+ 14310.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 125 bytes[39m
+ 14360.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 39 bytes[39m
+ 14400.00ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 21 bytes[39m
+ 14460.00ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
+ 14460.00ns [34mINFO    [39m ..coroutine.run_test.0x7f1eb4d1ff90       decorators.py:112  in send                            [34m[39m
+ 14460.01ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_010[39m
+ 14460.01ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 11/32:[39m[49m run_test_011[39m
+ 14460.01ns [34mINFO    [39m ..coroutine._my_test.0x7f1eb4b00550       decorators.py:181  in send                            [34mStarting test: "run_test_011"
                                                                                                                                Description: Automatically generated test
                                                                                                                                
                                                                                                                                	backpressure_inserter: wave ()
@@ -333,21 +333,21 @@ run -all
                                                                                                                                	data_in: random_packet_sizes (random string data of a random length)
                                                                                                                                	idle_inserter: intermittent_single_cycles (Generator to intermittently insert a single cycle pulse)
                                                                                                                                [39m
- 15985.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 29 bytes[39m
- 16315.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 138 bytes[39m
- 16395.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 20 bytes[39m
- 16525.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 41 bytes[39m
- 16585.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 40 bytes[39m
- 16975.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 146 bytes[39m
- 17205.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 115 bytes[39m
- 17465.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 131 bytes[39m
- 17835.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 142 bytes[39m
- 17895.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 38 bytes[39m
- 17955.01ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
- 17955.01ns [34mINFO    [39m ..coroutine.run_test.0x7f5c14d21850       decorators.py:112  in send                            [34m[39m
- 17955.01ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_011[39m
- 17955.01ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 12/32:[39m[49m run_test_012[39m
- 17955.01ns [34mINFO    [39m ..coroutine._my_test.0x7f5c14b00cd0       decorators.py:181  in send                            [34mStarting test: "run_test_012"
+ 14765.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 131 bytes[39m
+ 15115.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 147 bytes[39m
+ 15255.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 51 bytes[39m
+ 15375.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 33 bytes[39m
+ 15625.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 126 bytes[39m
+ 15775.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 56 bytes[39m
+ 16155.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 150 bytes[39m
+ 16365.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 88 bytes[39m
+ 16645.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 135 bytes[39m
+ 16865.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 96 bytes[39m
+ 16925.01ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
+ 16925.01ns [34mINFO    [39m ..coroutine.run_test.0x7f1eb4d0da10       decorators.py:112  in send                            [34m[39m
+ 16925.01ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_011[39m
+ 16925.01ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 12/32:[39m[49m run_test_012[39m
+ 16925.01ns [34mINFO    [39m ..coroutine._my_test.0x7f1eb4b00cd0       decorators.py:181  in send                            [34mStarting test: "run_test_012"
                                                                                                                                Description: Automatically generated test
                                                                                                                                
                                                                                                                                	backpressure_inserter: wave ()
@@ -355,21 +355,21 @@ run -all
                                                                                                                                	data_in: random_packet_sizes (random string data of a random length)
                                                                                                                                	idle_inserter: random_50_percent (50% duty cycle with random width)
                                                                                                                                [39m
- 18100.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 61 bytes[39m
- 18470.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 86 bytes[39m
- 18870.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 133 bytes[39m
- 19240.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 83 bytes[39m
- 19280.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 21 bytes[39m
- 19710.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 128 bytes[39m
- 20320.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 136 bytes[39m
- 20590.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 80 bytes[39m
- 20820.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 35 bytes[39m
- 21100.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 74 bytes[39m
- 21160.01ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
- 21160.01ns [34mINFO    [39m ..coroutine.run_test.0x7f5c14d21bd0       decorators.py:112  in send                            [34m[39m
- 21160.01ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_012[39m
- 21160.01ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 13/32:[39m[49m run_test_013[39m
- 21160.01ns [34mINFO    [39m ..coroutine._my_test.0x7f5c14b007d0       decorators.py:181  in send                            [34mStarting test: "run_test_013"
+ 17240.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 108 bytes[39m
+ 17600.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 134 bytes[39m
+ 18070.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 117 bytes[39m
+ 18420.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 108 bytes[39m
+ 18460.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 23 bytes[39m
+ 18640.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 66 bytes[39m
+ 18870.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 42 bytes[39m
+ 19060.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 39 bytes[39m
+ 19390.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 134 bytes[39m
+ 19560.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 37 bytes[39m
+ 19620.01ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
+ 19620.01ns [34mINFO    [39m ..coroutine.run_test.0x7f1eb4d08b10       decorators.py:112  in send                            [34m[39m
+ 19620.01ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_012[39m
+ 19620.01ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 13/32:[39m[49m run_test_013[39m
+ 19620.01ns [34mINFO    [39m ..coroutine._my_test.0x7f1eb4b007d0       decorators.py:181  in send                            [34mStarting test: "run_test_013"
                                                                                                                                Description: Automatically generated test
                                                                                                                                
                                                                                                                                	backpressure_inserter: wave ()
@@ -377,21 +377,21 @@ run -all
                                                                                                                                	data_in: random_packet_sizes (random string data of a random length)
                                                                                                                                	idle_inserter: None
                                                                                                                                [39m
- 21455.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 135 bytes[39m
- 21765.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 129 bytes[39m
- 21925.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 83 bytes[39m
- 22075.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 58 bytes[39m
- 22125.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 31 bytes[39m
- 22435.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 131 bytes[39m
- 22605.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 72 bytes[39m
- 22695.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 70 bytes[39m
- 22925.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 108 bytes[39m
- 23165.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 115 bytes[39m
- 23225.01ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
- 23225.01ns [34mINFO    [39m ..coroutine.run_test.0x7f5c14d0a810       decorators.py:112  in send                            [34m[39m
- 23225.01ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_013[39m
- 23225.01ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 14/32:[39m[49m run_test_014[39m
- 23225.01ns [34mINFO    [39m ..coroutine._my_test.0x7f5c14afdb10       decorators.py:181  in send                            [34mStarting test: "run_test_014"
+ 19815.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 75 bytes[39m
+ 19845.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 13 bytes[39m
+ 20035.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 86 bytes[39m
+ 20305.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 130 bytes[39m
+ 20595.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 132 bytes[39m
+ 20885.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 115 bytes[39m
+ 20905.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 1 bytes[39m
+ 20975.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 42 bytes[39m
+ 21075.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 15 bytes[39m
+ 21145.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 41 bytes[39m
+ 21205.01ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
+ 21205.01ns [34mINFO    [39m ..coroutine.run_test.0x7f1eb4cf1b50       decorators.py:112  in send                            [34m[39m
+ 21205.01ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_013[39m
+ 21205.01ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 14/32:[39m[49m run_test_014[39m
+ 21205.01ns [34mINFO    [39m ..coroutine._my_test.0x7f1eb4afdb10       decorators.py:181  in send                            [34mStarting test: "run_test_014"
                                                                                                                                Description: Automatically generated test
                                                                                                                                
                                                                                                                                	backpressure_inserter: wave ()
@@ -399,21 +399,21 @@ run -all
                                                                                                                                	data_in: random_packet_sizes (random string data of a random length)
                                                                                                                                	idle_inserter: wave ()
                                                                                                                                [39m
- 23420.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 50 bytes[39m
- 23630.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 94 bytes[39m
- 23700.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 14 bytes[39m
- 23840.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 58 bytes[39m
- 24150.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 137 bytes[39m
- 24360.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 106 bytes[39m
- 24900.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 144 bytes[39m
- 25130.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 104 bytes[39m
- 25400.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 136 bytes[39m
- 25670.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 122 bytes[39m
- 25730.01ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
- 25730.01ns [34mINFO    [39m ..coroutine.run_test.0x7f5c14d0a5d0       decorators.py:112  in send                            [34m[39m
- 25730.01ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_014[39m
- 25730.01ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 15/32:[39m[49m run_test_015[39m
- 25730.01ns [34mINFO    [39m ..coroutine._my_test.0x7f5c14b00190       decorators.py:181  in send                            [34mStarting test: "run_test_015"
+ 21500.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 98 bytes[39m
+ 21620.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 50 bytes[39m
+ 21710.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 25 bytes[39m
+ 21810.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 27 bytes[39m
+ 22120.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 140 bytes[39m
+ 22370.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 142 bytes[39m
+ 22880.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 116 bytes[39m
+ 22950.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 45 bytes[39m
+ 22970.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 5 bytes[39m
+ 23180.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 35 bytes[39m
+ 23240.01ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
+ 23240.01ns [34mINFO    [39m ..coroutine.run_test.0x7f1eb4d16250       decorators.py:112  in send                            [34m[39m
+ 23240.01ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_014[39m
+ 23240.01ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 15/32:[39m[49m run_test_015[39m
+ 23240.01ns [34mINFO    [39m ..coroutine._my_test.0x7f1eb4b00190       decorators.py:181  in send                            [34mStarting test: "run_test_015"
                                                                                                                                Description: Automatically generated test
                                                                                                                                
                                                                                                                                	backpressure_inserter: wave ()
@@ -421,21 +421,21 @@ run -all
                                                                                                                                	data_in: random_packet_sizes (random string data of a random length)
                                                                                                                                	idle_inserter: intermittent_single_cycles (Generator to intermittently insert a single cycle pulse)
                                                                                                                                [39m
- 25805.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 23 bytes[39m
- 26045.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 106 bytes[39m
- 26145.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 30 bytes[39m
- 26265.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 49 bytes[39m
- 26485.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 80 bytes[39m
- 26645.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 64 bytes[39m
- 26715.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 42 bytes[39m
- 26905.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 86 bytes[39m
- 27085.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 70 bytes[39m
- 27275.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 77 bytes[39m
- 27335.01ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
- 27335.01ns [34mINFO    [39m ..coroutine.run_test.0x7f5c14d0d310       decorators.py:112  in send                            [34m[39m
- 27335.01ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_015[39m
- 27335.01ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 16/32:[39m[49m run_test_016[39m
- 27335.01ns [34mINFO    [39m ..coroutine._my_test.0x7f5c14af9490       decorators.py:181  in send                            [34mStarting test: "run_test_016"
+ 23325.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 27 bytes[39m
+ 23365.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 6 bytes[39m
+ 23445.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 25 bytes[39m
+ 23605.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 53 bytes[39m
+ 23625.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 15 bytes[39m
+ 23655.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 9 bytes[39m
+ 23755.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 34 bytes[39m
+ 24045.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 134 bytes[39m
+ 24335.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 108 bytes[39m
+ 24415.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 45 bytes[39m
+ 24565.01ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
+ 24565.01ns [34mINFO    [39m ..coroutine.run_test.0x7f1eb4d21f10       decorators.py:112  in send                            [34m[39m
+ 24565.01ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_015[39m
+ 24565.01ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 16/32:[39m[49m run_test_016[39m
+ 24565.01ns [34mINFO    [39m ..coroutine._my_test.0x7f1eb4af9490       decorators.py:181  in send                            [34mStarting test: "run_test_016"
                                                                                                                                Description: Automatically generated test
                                                                                                                                
                                                                                                                                	backpressure_inserter: wave ()
@@ -443,21 +443,21 @@ run -all
                                                                                                                                	data_in: random_packet_sizes (random string data of a random length)
                                                                                                                                	idle_inserter: random_50_percent (50% duty cycle with random width)
                                                                                                                                [39m
- 27480.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 58 bytes[39m
- 27960.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 123 bytes[39m
- 28250.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 98 bytes[39m
- 28820.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 126 bytes[39m
- 29250.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 150 bytes[39m
- 29450.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 46 bytes[39m
- 29730.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 101 bytes[39m
- 29760.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 10 bytes[39m
- 30020.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 89 bytes[39m
- 30100.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 52 bytes[39m
- 30250.01ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
- 30250.01ns [34mINFO    [39m ..coroutine.run_test.0x7f5c14d0a6d0       decorators.py:112  in send                            [34m[39m
- 30250.01ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_016[39m
- 30250.01ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 17/32:[39m[49m run_test_017[39m
- 30250.01ns [34mINFO    [39m ..coroutine._my_test.0x7f5c14b002d0       decorators.py:181  in send                            [34mStarting test: "run_test_017"
+ 24950.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 120 bytes[39m
+ 25380.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 133 bytes[39m
+ 25570.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 66 bytes[39m
+ 26040.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 129 bytes[39m
+ 26480.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 148 bytes[39m
+ 26680.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 62 bytes[39m
+ 26720.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 23 bytes[39m
+ 26770.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 31 bytes[39m
+ 27000.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 58 bytes[39m
+ 27490.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 149 bytes[39m
+ 27550.01ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
+ 27550.01ns [34mINFO    [39m ..coroutine.run_test.0x7f1eb4d2a7d0       decorators.py:112  in send                            [34m[39m
+ 27550.01ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_016[39m
+ 27550.01ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 17/32:[39m[49m run_test_017[39m
+ 27550.01ns [34mINFO    [39m ..coroutine._my_test.0x7f1eb4b002d0       decorators.py:181  in send                            [34mStarting test: "run_test_017"
                                                                                                                                Description: Automatically generated test
                                                                                                                                
                                                                                                                                	backpressure_inserter: intermittent_single_cycles (Generator to intermittently insert a single cycle pulse)
@@ -465,21 +465,21 @@ run -all
                                                                                                                                	data_in: random_packet_sizes (random string data of a random length)
                                                                                                                                	idle_inserter: None
                                                                                                                                [39m
- 30345.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 45 bytes[39m
- 30465.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 73 bytes[39m
- 30515.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 17 bytes[39m
- 30565.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 35 bytes[39m
- 30725.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 100 bytes[39m
- 30785.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 40 bytes[39m
- 30995.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 144 bytes[39m
- 31105.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 72 bytes[39m
- 31205.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 63 bytes[39m
- 31245.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 19 bytes[39m
- 31315.01ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
- 31315.01ns [34mINFO    [39m ..coroutine.run_test.0x7f5c14d19750       decorators.py:112  in send                            [34m[39m
- 31315.01ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_017[39m
- 31315.01ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 18/32:[39m[49m run_test_018[39m
- 31315.01ns [34mINFO    [39m ..coroutine._my_test.0x7f5c14afded0       decorators.py:181  in send                            [34mStarting test: "run_test_018"
+ 27695.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 88 bytes[39m
+ 27745.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 28 bytes[39m
+ 27765.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 7 bytes[39m
+ 27865.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 57 bytes[39m
+ 28045.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 127 bytes[39m
+ 28095.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 21 bytes[39m
+ 28285.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 131 bytes[39m
+ 28485.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 131 bytes[39m
+ 28685.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 142 bytes[39m
+ 28815.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 79 bytes[39m
+ 28875.01ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
+ 28875.01ns [34mINFO    [39m ..coroutine.run_test.0x7f1eb4d2ae90       decorators.py:112  in send                            [34m[39m
+ 28875.01ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_017[39m
+ 28875.01ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 18/32:[39m[49m run_test_018[39m
+ 28875.01ns [34mINFO    [39m ..coroutine._my_test.0x7f1eb4afded0       decorators.py:181  in send                            [34mStarting test: "run_test_018"
                                                                                                                                Description: Automatically generated test
                                                                                                                                
                                                                                                                                	backpressure_inserter: intermittent_single_cycles (Generator to intermittently insert a single cycle pulse)
@@ -487,21 +487,21 @@ run -all
                                                                                                                                	data_in: random_packet_sizes (random string data of a random length)
                                                                                                                                	idle_inserter: wave ()
                                                                                                                                [39m
- 31640.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 130 bytes[39m
- 31820.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 83 bytes[39m
- 32040.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 80 bytes[39m
- 32350.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 137 bytes[39m
- 32420.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 36 bytes[39m
- 32760.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 132 bytes[39m
- 32870.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 65 bytes[39m
- 33230.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 144 bytes[39m
- 33510.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 139 bytes[39m
- 33770.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 113 bytes[39m
- 33830.01ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
- 33830.01ns [34mINFO    [39m ..coroutine.run_test.0x7f5c14d21210       decorators.py:112  in send                            [34m[39m
- 33830.01ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_018[39m
- 33830.01ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 19/32:[39m[49m run_test_019[39m
- 33830.01ns [34mINFO    [39m ..coroutine._my_test.0x7f5c14b00050       decorators.py:181  in send                            [34mStarting test: "run_test_019"
+ 29090.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 81 bytes[39m
+ 29250.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 77 bytes[39m
+ 29360.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 46 bytes[39m
+ 29590.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 86 bytes[39m
+ 29750.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 72 bytes[39m
+ 29950.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 86 bytes[39m
+ 30170.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 113 bytes[39m
+ 30200.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 11 bytes[39m
+ 30330.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 37 bytes[39m
+ 30360.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 5 bytes[39m
+ 30420.01ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
+ 30420.01ns [34mINFO    [39m ..coroutine.run_test.0x7f1eb4d1db50       decorators.py:112  in send                            [34m[39m
+ 30420.01ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_018[39m
+ 30420.01ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 19/32:[39m[49m run_test_019[39m
+ 30420.01ns [34mINFO    [39m ..coroutine._my_test.0x7f1eb4b00050       decorators.py:181  in send                            [34mStarting test: "run_test_019"
                                                                                                                                Description: Automatically generated test
                                                                                                                                
                                                                                                                                	backpressure_inserter: intermittent_single_cycles (Generator to intermittently insert a single cycle pulse)
@@ -509,21 +509,21 @@ run -all
                                                                                                                                	data_in: random_packet_sizes (random string data of a random length)
                                                                                                                                	idle_inserter: intermittent_single_cycles (Generator to intermittently insert a single cycle pulse)
                                                                                                                                [39m
- 34045.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 134 bytes[39m
- 34275.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 139 bytes[39m
- 34335.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 29 bytes[39m
- 34535.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 125 bytes[39m
- 34715.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 115 bytes[39m
- 34805.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 45 bytes[39m
- 34955.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 81 bytes[39m
- 35095.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 94 bytes[39m
- 35185.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 45 bytes[39m
- 35305.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 75 bytes[39m
- 35365.01ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
- 35365.01ns [34mINFO    [39m ..coroutine.run_test.0x7f5c14d0d650       decorators.py:112  in send                            [34m[39m
- 35365.01ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_019[39m
- 35365.01ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 20/32:[39m[49m run_test_020[39m
- 35365.01ns [34mINFO    [39m ..coroutine._my_test.0x7f5c14af9bd0       decorators.py:181  in send                            [34mStarting test: "run_test_020"
+ 30465.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 9 bytes[39m
+ 30665.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 127 bytes[39m
+ 30805.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 86 bytes[39m
+ 31055.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 147 bytes[39m
+ 31185.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 75 bytes[39m
+ 31345.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 111 bytes[39m
+ 31565.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 130 bytes[39m
+ 31785.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 135 bytes[39m
+ 31845.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 26 bytes[39m
+ 32055.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 140 bytes[39m
+ 32125.01ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
+ 32125.01ns [34mINFO    [39m ..coroutine.run_test.0x7f1eb4d03a50       decorators.py:112  in send                            [34m[39m
+ 32125.01ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_019[39m
+ 32125.01ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 20/32:[39m[49m run_test_020[39m
+ 32125.01ns [34mINFO    [39m ..coroutine._my_test.0x7f1eb4af9bd0       decorators.py:181  in send                            [34mStarting test: "run_test_020"
                                                                                                                                Description: Automatically generated test
                                                                                                                                
                                                                                                                                	backpressure_inserter: intermittent_single_cycles (Generator to intermittently insert a single cycle pulse)
@@ -531,21 +531,21 @@ run -all
                                                                                                                                	data_in: random_packet_sizes (random string data of a random length)
                                                                                                                                	idle_inserter: random_50_percent (50% duty cycle with random width)
                                                                                                                                [39m
- 35470.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 60 bytes[39m
- 35620.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 30 bytes[39m
- 35890.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 113 bytes[39m
- 36050.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 35 bytes[39m
- 36370.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 126 bytes[39m
- 36740.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 117 bytes[39m
- 37090.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 125 bytes[39m
- 37330.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 102 bytes[39m
- 37530.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 44 bytes[39m
- 37820.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 146 bytes[39m
- 37880.01ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
- 37880.01ns [34mINFO    [39m ..coroutine.run_test.0x7f5c14d19b10       decorators.py:112  in send                            [34m[39m
- 37880.02ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_020[39m
- 37880.02ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 21/32:[39m[49m run_test_021[39m
- 37880.02ns [34mINFO    [39m ..coroutine._my_test.0x7f5c14af9a90       decorators.py:181  in send                            [34mStarting test: "run_test_021"
+ 32200.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 40 bytes[39m
+ 32240.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 14 bytes[39m
+ 32250.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 4 bytes[39m
+ 32380.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 18 bytes[39m
+ 32450.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 47 bytes[39m
+ 32790.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 90 bytes[39m
+ 33130.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 146 bytes[39m
+ 33550.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 131 bytes[39m
+ 33580.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 16 bytes[39m
+ 33780.01ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 52 bytes[39m
+ 33840.01ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
+ 33840.01ns [34mINFO    [39m ..coroutine.run_test.0x7f1eb4d0a3d0       decorators.py:112  in send                            [34m[39m
+ 33840.02ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_020[39m
+ 33840.02ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 21/32:[39m[49m run_test_021[39m
+ 33840.02ns [34mINFO    [39m ..coroutine._my_test.0x7f1eb4af9a90       decorators.py:181  in send                            [34mStarting test: "run_test_021"
                                                                                                                                Description: Automatically generated test
                                                                                                                                
                                                                                                                                	backpressure_inserter: intermittent_single_cycles (Generator to intermittently insert a single cycle pulse)
@@ -553,21 +553,21 @@ run -all
                                                                                                                                	data_in: random_packet_sizes (random string data of a random length)
                                                                                                                                	idle_inserter: None
                                                                                                                                [39m
- 38025.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 88 bytes[39m
- 38165.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 92 bytes[39m
- 38365.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 124 bytes[39m
- 38395.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 12 bytes[39m
- 38565.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 109 bytes[39m
- 38745.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 120 bytes[39m
- 38905.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 105 bytes[39m
- 39045.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 93 bytes[39m
- 39075.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 2 bytes[39m
- 39105.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 20 bytes[39m
- 39165.02ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
- 39165.02ns [34mINFO    [39m ..coroutine.run_test.0x7f5c1523ca10       decorators.py:112  in send                            [34m[39m
- 39165.02ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_021[39m
- 39165.02ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 22/32:[39m[49m run_test_022[39m
- 39165.02ns [34mINFO    [39m ..coroutine._my_test.0x7f5c14b00910       decorators.py:181  in send                            [34mStarting test: "run_test_022"
+ 33915.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 40 bytes[39m
+ 34025.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 67 bytes[39m
+ 34085.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 28 bytes[39m
+ 34205.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 75 bytes[39m
+ 34235.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 11 bytes[39m
+ 34335.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 63 bytes[39m
+ 34405.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 48 bytes[39m
+ 34475.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 40 bytes[39m
+ 34655.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 127 bytes[39m
+ 34765.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 72 bytes[39m
+ 34825.02ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
+ 34825.02ns [34mINFO    [39m ..coroutine.run_test.0x7f1eb4d1d310       decorators.py:112  in send                            [34m[39m
+ 34825.02ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_021[39m
+ 34825.02ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 22/32:[39m[49m run_test_022[39m
+ 34825.02ns [34mINFO    [39m ..coroutine._my_test.0x7f1eb4b00910       decorators.py:181  in send                            [34mStarting test: "run_test_022"
                                                                                                                                Description: Automatically generated test
                                                                                                                                
                                                                                                                                	backpressure_inserter: intermittent_single_cycles (Generator to intermittently insert a single cycle pulse)
@@ -575,21 +575,21 @@ run -all
                                                                                                                                	data_in: random_packet_sizes (random string data of a random length)
                                                                                                                                	idle_inserter: wave ()
                                                                                                                                [39m
- 39320.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 72 bytes[39m
- 39480.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 64 bytes[39m
- 39710.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 93 bytes[39m
- 39800.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 50 bytes[39m
- 40010.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 77 bytes[39m
- 40120.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 68 bytes[39m
- 40380.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 100 bytes[39m
- 40420.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 11 bytes[39m
- 40500.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 46 bytes[39m
- 40720.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 90 bytes[39m
- 40780.02ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
- 40780.02ns [34mINFO    [39m ..coroutine.run_test.0x7f5c14d08650       decorators.py:112  in send                            [34m[39m
- 40780.02ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_022[39m
- 40780.02ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 23/32:[39m[49m run_test_023[39m
- 40780.02ns [34mINFO    [39m ..coroutine._my_test.0x7f5c14afd890       decorators.py:181  in send                            [34mStarting test: "run_test_023"
+ 34990.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 66 bytes[39m
+ 35280.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 127 bytes[39m
+ 35590.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 133 bytes[39m
+ 35720.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 49 bytes[39m
+ 35910.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 83 bytes[39m
+ 36100.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 75 bytes[39m
+ 36180.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 42 bytes[39m
+ 36310.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 30 bytes[39m
+ 36500.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 88 bytes[39m
+ 36630.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 79 bytes[39m
+ 36690.02ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
+ 36690.02ns [34mINFO    [39m ..coroutine.run_test.0x7f1eb4d08810       decorators.py:112  in send                            [34m[39m
+ 36690.02ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_022[39m
+ 36690.02ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 23/32:[39m[49m run_test_023[39m
+ 36690.02ns [34mINFO    [39m ..coroutine._my_test.0x7f1eb4afd890       decorators.py:181  in send                            [34mStarting test: "run_test_023"
                                                                                                                                Description: Automatically generated test
                                                                                                                                
                                                                                                                                	backpressure_inserter: intermittent_single_cycles (Generator to intermittently insert a single cycle pulse)
@@ -597,21 +597,21 @@ run -all
                                                                                                                                	data_in: random_packet_sizes (random string data of a random length)
                                                                                                                                	idle_inserter: intermittent_single_cycles (Generator to intermittently insert a single cycle pulse)
                                                                                                                                [39m
- 40885.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 51 bytes[39m
- 40935.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 18 bytes[39m
- 41025.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 55 bytes[39m
- 41155.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 67 bytes[39m
- 41305.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 90 bytes[39m
- 41325.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 1 bytes[39m
- 41415.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 49 bytes[39m
- 41525.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 58 bytes[39m
- 41615.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 42 bytes[39m
- 41855.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 146 bytes[39m
- 41915.02ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
- 41915.02ns [34mINFO    [39m ..coroutine.run_test.0x7f5c14d26ed0       decorators.py:112  in send                            [34m[39m
- 41915.02ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_023[39m
- 41915.02ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 24/32:[39m[49m run_test_024[39m
- 41915.02ns [34mINFO    [39m ..coroutine._my_test.0x7f5c14af96d0       decorators.py:181  in send                            [34mStarting test: "run_test_024"
+ 36905.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 116 bytes[39m
+ 37105.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 124 bytes[39m
+ 37335.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 142 bytes[39m
+ 37535.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 119 bytes[39m
+ 37555.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 9 bytes[39m
+ 37695.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 82 bytes[39m
+ 37925.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 142 bytes[39m
+ 38025.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 46 bytes[39m
+ 38205.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 117 bytes[39m
+ 38445.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 137 bytes[39m
+ 38505.02ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
+ 38505.02ns [34mINFO    [39m ..coroutine.run_test.0x7f1eb4d2aa50       decorators.py:112  in send                            [34m[39m
+ 38505.02ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_023[39m
+ 38505.02ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 24/32:[39m[49m run_test_024[39m
+ 38505.02ns [34mINFO    [39m ..coroutine._my_test.0x7f1eb4af96d0       decorators.py:181  in send                            [34mStarting test: "run_test_024"
                                                                                                                                Description: Automatically generated test
                                                                                                                                
                                                                                                                                	backpressure_inserter: intermittent_single_cycles (Generator to intermittently insert a single cycle pulse)
@@ -619,21 +619,21 @@ run -all
                                                                                                                                	data_in: random_packet_sizes (random string data of a random length)
                                                                                                                                	idle_inserter: random_50_percent (50% duty cycle with random width)
                                                                                                                                [39m
- 42310.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 148 bytes[39m
- 42350.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 14 bytes[39m
- 42460.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 28 bytes[39m
- 42790.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 135 bytes[39m
- 43170.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 123 bytes[39m
- 43410.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 80 bytes[39m
- 43430.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 1 bytes[39m
- 43660.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 78 bytes[39m
- 43710.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 21 bytes[39m
- 43950.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 86 bytes[39m
- 44040.02ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
- 44040.02ns [34mINFO    [39m ..coroutine.run_test.0x7f5c14d0dd10       decorators.py:112  in send                            [34m[39m
- 44040.02ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_024[39m
- 44040.02ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 25/32:[39m[49m run_test_025[39m
- 44040.02ns [34mINFO    [39m ..coroutine._my_test.0x7f5c14b00690       decorators.py:181  in send                            [34mStarting test: "run_test_025"
+ 38740.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 101 bytes[39m
+ 39010.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 82 bytes[39m
+ 39180.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 54 bytes[39m
+ 39510.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 139 bytes[39m
+ 39870.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 107 bytes[39m
+ 40160.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 108 bytes[39m
+ 40530.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 125 bytes[39m
+ 40810.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 95 bytes[39m
+ 41020.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 94 bytes[39m
+ 41360.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 105 bytes[39m
+ 41420.02ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
+ 41420.02ns [34mINFO    [39m ..coroutine.run_test.0x7f1eb4d0a710       decorators.py:112  in send                            [34m[39m
+ 41420.02ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_024[39m
+ 41420.02ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 25/32:[39m[49m run_test_025[39m
+ 41420.02ns [34mINFO    [39m ..coroutine._my_test.0x7f1eb4b00690       decorators.py:181  in send                            [34mStarting test: "run_test_025"
                                                                                                                                Description: Automatically generated test
                                                                                                                                
                                                                                                                                	backpressure_inserter: random_50_percent (50% duty cycle with random width)
@@ -641,21 +641,21 @@ run -all
                                                                                                                                	data_in: random_packet_sizes (random string data of a random length)
                                                                                                                                	idle_inserter: None
                                                                                                                                [39m
- 44315.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 116 bytes[39m
- 44505.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 46 bytes[39m
- 44545.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 18 bytes[39m
- 44885.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 110 bytes[39m
- 45075.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 61 bytes[39m
- 45315.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 106 bytes[39m
- 45465.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 47 bytes[39m
- 45505.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 17 bytes[39m
- 45875.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 125 bytes[39m
- 46015.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 31 bytes[39m
- 46075.02ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
- 46075.02ns [34mINFO    [39m ..coroutine.run_test.0x7f5c14d23110       decorators.py:112  in send                            [34m[39m
- 46075.02ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_025[39m
- 46075.02ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 26/32:[39m[49m run_test_026[39m
- 46075.02ns [34mINFO    [39m ..coroutine._my_test.0x7f5c14af9950       decorators.py:181  in send                            [34mStarting test: "run_test_026"
+ 41495.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 33 bytes[39m
+ 41655.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 37 bytes[39m
+ 41935.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 98 bytes[39m
+ 41995.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 37 bytes[39m
+ 42385.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 135 bytes[39m
+ 42665.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 104 bytes[39m
+ 42815.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 35 bytes[39m
+ 42865.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 27 bytes[39m
+ 43105.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 95 bytes[39m
+ 43135.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 15 bytes[39m
+ 43325.02ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
+ 43325.02ns [34mINFO    [39m ..coroutine.run_test.0x7f1eb51a2cd0       decorators.py:112  in send                            [34m[39m
+ 43325.02ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_025[39m
+ 43325.02ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 26/32:[39m[49m run_test_026[39m
+ 43325.02ns [34mINFO    [39m ..coroutine._my_test.0x7f1eb4af9950       decorators.py:181  in send                            [34mStarting test: "run_test_026"
                                                                                                                                Description: Automatically generated test
                                                                                                                                
                                                                                                                                	backpressure_inserter: random_50_percent (50% duty cycle with random width)
@@ -663,21 +663,21 @@ run -all
                                                                                                                                	data_in: random_packet_sizes (random string data of a random length)
                                                                                                                                	idle_inserter: wave ()
                                                                                                                                [39m
- 46660.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 149 bytes[39m
- 46920.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 77 bytes[39m
- 47150.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 98 bytes[39m
- 47680.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 126 bytes[39m
- 47950.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 81 bytes[39m
- 48110.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 11 bytes[39m
- 48590.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 145 bytes[39m
- 49110.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 142 bytes[39m
- 49420.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 72 bytes[39m
- 49530.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 79 bytes[39m
- 49720.02ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
- 49720.02ns [34mINFO    [39m ..coroutine.run_test.0x7f5c14d08f90       decorators.py:112  in send                            [34m[39m
- 49720.02ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_026[39m
- 49720.02ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 27/32:[39m[49m run_test_027[39m
- 49720.02ns [34mINFO    [39m ..coroutine._my_test.0x7f5c14af9810       decorators.py:181  in send                            [34mStarting test: "run_test_027"
+ 43550.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 55 bytes[39m
+ 43720.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 25 bytes[39m
+ 43800.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 39 bytes[39m
+ 44080.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 79 bytes[39m
+ 44470.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 79 bytes[39m
+ 44700.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 68 bytes[39m
+ 45010.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 63 bytes[39m
+ 45510.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 105 bytes[39m
+ 45780.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 84 bytes[39m
+ 46190.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 122 bytes[39m
+ 46250.02ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
+ 46250.02ns [34mINFO    [39m ..coroutine.run_test.0x7f1eb4d1fcd0       decorators.py:112  in send                            [34m[39m
+ 46250.02ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_026[39m
+ 46250.02ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 27/32:[39m[49m run_test_027[39m
+ 46250.02ns [34mINFO    [39m ..coroutine._my_test.0x7f1eb4af9810       decorators.py:181  in send                            [34mStarting test: "run_test_027"
                                                                                                                                Description: Automatically generated test
                                                                                                                                
                                                                                                                                	backpressure_inserter: random_50_percent (50% duty cycle with random width)
@@ -685,21 +685,21 @@ run -all
                                                                                                                                	data_in: random_packet_sizes (random string data of a random length)
                                                                                                                                	idle_inserter: intermittent_single_cycles (Generator to intermittently insert a single cycle pulse)
                                                                                                                                [39m
- 49965.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 84 bytes[39m
- 50285.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 100 bytes[39m
- 50705.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 137 bytes[39m
- 50905.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 75 bytes[39m
- 50945.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 24 bytes[39m
- 51335.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 119 bytes[39m
- 51685.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 117 bytes[39m
- 51915.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 103 bytes[39m
- 52285.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 133 bytes[39m
- 52715.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 132 bytes[39m
- 52775.02ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
- 52775.02ns [34mINFO    [39m ..coroutine.run_test.0x7f5c14d23250       decorators.py:112  in send                            [34m[39m
- 52775.02ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_027[39m
- 52775.02ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 28/32:[39m[49m run_test_028[39m
- 52775.02ns [34mINFO    [39m ..coroutine._my_test.0x7f5c14afd4d0       decorators.py:181  in send                            [34mStarting test: "run_test_028"
+ 46295.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 14 bytes[39m
+ 46465.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 41 bytes[39m
+ 46505.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 23 bytes[39m
+ 46935.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 147 bytes[39m
+ 47355.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 131 bytes[39m
+ 47515.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 41 bytes[39m
+ 47545.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 14 bytes[39m
+ 47565.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 6 bytes[39m
+ 47975.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 119 bytes[39m
+ 48295.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 139 bytes[39m
+ 48355.02ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
+ 48355.02ns [34mINFO    [39m ..coroutine.run_test.0x7f1eb4d03090       decorators.py:112  in send                            [34m[39m
+ 48355.02ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_027[39m
+ 48355.02ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 28/32:[39m[49m run_test_028[39m
+ 48355.02ns [34mINFO    [39m ..coroutine._my_test.0x7f1eb4afd4d0       decorators.py:181  in send                            [34mStarting test: "run_test_028"
                                                                                                                                Description: Automatically generated test
                                                                                                                                
                                                                                                                                	backpressure_inserter: random_50_percent (50% duty cycle with random width)
@@ -707,21 +707,21 @@ run -all
                                                                                                                                	data_in: random_packet_sizes (random string data of a random length)
                                                                                                                                	idle_inserter: random_50_percent (50% duty cycle with random width)
                                                                                                                                [39m
- 53230.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 145 bytes[39m
- 53460.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 66 bytes[39m
- 53850.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 72 bytes[39m
- 54090.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 41 bytes[39m
- 54380.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 112 bytes[39m
- 54410.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 10 bytes[39m
- 54810.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 45 bytes[39m
- 55150.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 81 bytes[39m
- 55490.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 81 bytes[39m
- 55810.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 100 bytes[39m
- 55870.02ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
- 55870.02ns [34mINFO    [39m ..coroutine.run_test.0x7f5c14d26150       decorators.py:112  in send                            [34m[39m
- 55870.02ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_028[39m
- 55870.02ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 29/32:[39m[49m run_test_029[39m
- 55870.02ns [34mINFO    [39m ..coroutine._my_test.0x7f5c14b00a50       decorators.py:181  in send                            [34mStarting test: "run_test_029"
+ 48420.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 29 bytes[39m
+ 48920.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 125 bytes[39m
+ 49140.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 21 bytes[39m
+ 49630.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 97 bytes[39m
+ 49680.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 36 bytes[39m
+ 50070.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 75 bytes[39m
+ 50770.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 149 bytes[39m
+ 50840.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 56 bytes[39m
+ 51010.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 40 bytes[39m
+ 51540.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 134 bytes[39m
+ 51600.02ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
+ 51600.02ns [34mINFO    [39m ..coroutine.run_test.0x7f1eb51b0610       decorators.py:112  in send                            [34m[39m
+ 51600.02ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_028[39m
+ 51600.02ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 29/32:[39m[49m run_test_029[39m
+ 51600.02ns [34mINFO    [39m ..coroutine._my_test.0x7f1eb4b00a50       decorators.py:181  in send                            [34mStarting test: "run_test_029"
                                                                                                                                Description: Automatically generated test
                                                                                                                                
                                                                                                                                	backpressure_inserter: random_50_percent (50% duty cycle with random width)
@@ -729,21 +729,21 @@ run -all
                                                                                                                                	data_in: random_packet_sizes (random string data of a random length)
                                                                                                                                	idle_inserter: None
                                                                                                                                [39m
- 56125.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 137 bytes[39m
- 56555.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 110 bytes[39m
- 56875.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 142 bytes[39m
- 57205.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 112 bytes[39m
- 57525.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 109 bytes[39m
- 57555.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 10 bytes[39m
- 57575.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 6 bytes[39m
- 57765.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 69 bytes[39m
- 58035.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 109 bytes[39m
- 58185.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 9 bytes[39m
- 58245.02ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
- 58245.02ns [34mINFO    [39m ..coroutine.run_test.0x7f5c14d1eb10       decorators.py:112  in send                            [34m[39m
- 58245.02ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_029[39m
- 58245.02ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 30/32:[39m[49m run_test_030[39m
- 58245.02ns [34mINFO    [39m ..coroutine._my_test.0x7f5c14afd750       decorators.py:181  in send                            [34mStarting test: "run_test_030"
+ 51685.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 45 bytes[39m
+ 51865.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 36 bytes[39m
+ 51925.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 35 bytes[39m
+ 52075.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 25 bytes[39m
+ 52285.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 89 bytes[39m
+ 52465.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 46 bytes[39m
+ 52605.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 40 bytes[39m
+ 52845.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 117 bytes[39m
+ 53175.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 95 bytes[39m
+ 53445.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 98 bytes[39m
+ 53505.02ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
+ 53505.02ns [34mINFO    [39m ..coroutine.run_test.0x7f1eb4d24c10       decorators.py:112  in send                            [34m[39m
+ 53505.02ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_029[39m
+ 53505.02ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 30/32:[39m[49m run_test_030[39m
+ 53505.02ns [34mINFO    [39m ..coroutine._my_test.0x7f1eb4afd750       decorators.py:181  in send                            [34mStarting test: "run_test_030"
                                                                                                                                Description: Automatically generated test
                                                                                                                                
                                                                                                                                	backpressure_inserter: random_50_percent (50% duty cycle with random width)
@@ -751,21 +751,21 @@ run -all
                                                                                                                                	data_in: random_packet_sizes (random string data of a random length)
                                                                                                                                	idle_inserter: wave ()
                                                                                                                                [39m
- 58460.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 49 bytes[39m
- 59010.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 146 bytes[39m
- 59490.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 137 bytes[39m
- 59710.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 28 bytes[39m
- 59750.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 21 bytes[39m
- 60180.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 94 bytes[39m
- 60420.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 88 bytes[39m
- 61000.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 135 bytes[39m
- 61290.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 139 bytes[39m
- 61440.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 17 bytes[39m
- 61500.02ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
- 61500.02ns [34mINFO    [39m ..coroutine.run_test.0x7f5c15253810       decorators.py:112  in send                            [34m[39m
- 61500.03ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_030[39m
- 61500.03ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 31/32:[39m[49m run_test_031[39m
- 61500.03ns [34mINFO    [39m ..coroutine._my_test.0x7f5c14afdc50       decorators.py:181  in send                            [34mStarting test: "run_test_031"
+ 53820.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 117 bytes[39m
+ 53970.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 3 bytes[39m
+ 54190.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 77 bytes[39m
+ 54660.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 126 bytes[39m
+ 54860.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 50 bytes[39m
+ 55130.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 54 bytes[39m
+ 55510.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 149 bytes[39m
+ 55710.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 18 bytes[39m
+ 56130.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 126 bytes[39m
+ 56270.02ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 37 bytes[39m
+ 56330.02ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
+ 56330.02ns [34mINFO    [39m ..coroutine.run_test.0x7f1eb51b17d0       decorators.py:112  in send                            [34m[39m
+ 56330.03ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_030[39m
+ 56330.03ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 31/32:[39m[49m run_test_031[39m
+ 56330.03ns [34mINFO    [39m ..coroutine._my_test.0x7f1eb4afdc50       decorators.py:181  in send                            [34mStarting test: "run_test_031"
                                                                                                                                Description: Automatically generated test
                                                                                                                                
                                                                                                                                	backpressure_inserter: random_50_percent (50% duty cycle with random width)
@@ -773,21 +773,21 @@ run -all
                                                                                                                                	data_in: random_packet_sizes (random string data of a random length)
                                                                                                                                	idle_inserter: intermittent_single_cycles (Generator to intermittently insert a single cycle pulse)
                                                                                                                                [39m
- 61585.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 43 bytes[39m
- 62015.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 121 bytes[39m
- 62125.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 67 bytes[39m
- 62475.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 76 bytes[39m
- 62545.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 35 bytes[39m
- 62705.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 39 bytes[39m
- 63025.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 99 bytes[39m
- 63205.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 59 bytes[39m
- 63575.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 124 bytes[39m
- 63835.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 66 bytes[39m
- 63895.03ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
- 63895.03ns [34mINFO    [39m ..coroutine.run_test.0x7f5c15243d50       decorators.py:112  in send                            [34m[39m
- 63895.03ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_031[39m
- 63895.03ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 32/32:[39m[49m run_test_032[39m
- 63895.03ns [34mINFO    [39m ..coroutine._my_test.0x7f5c14b00b90       decorators.py:181  in send                            [34mStarting test: "run_test_032"
+ 56455.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 80 bytes[39m
+ 56625.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 20 bytes[39m
+ 56835.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 91 bytes[39m
+ 56855.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 3 bytes[39m
+ 57295.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 108 bytes[39m
+ 57475.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 50 bytes[39m
+ 57665.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 63 bytes[39m
+ 57915.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 104 bytes[39m
+ 58135.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 70 bytes[39m
+ 58545.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 124 bytes[39m
+ 58605.03ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
+ 58605.03ns [34mINFO    [39m ..coroutine.run_test.0x7f1eb51b8e50       decorators.py:112  in send                            [34m[39m
+ 58605.03ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_031[39m
+ 58605.03ns [34mINFO    [39m cocotb.regression                         regression.py:189  in execute                         [34m[44m[30mRunning test 32/32:[39m[49m run_test_032[39m
+ 58605.03ns [34mINFO    [39m ..coroutine._my_test.0x7f1eb4b00b90       decorators.py:181  in send                            [34mStarting test: "run_test_032"
                                                                                                                                Description: Automatically generated test
                                                                                                                                
                                                                                                                                	backpressure_inserter: random_50_percent (50% duty cycle with random width)
@@ -795,24 +795,24 @@ run -all
                                                                                                                                	data_in: random_packet_sizes (random string data of a random length)
                                                                                                                                	idle_inserter: random_50_percent (50% duty cycle with random width)
                                                                                                                                [39m
- 64120.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 88 bytes[39m
- 64580.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 138 bytes[39m
- 65070.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 83 bytes[39m
- 65750.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 137 bytes[39m
- 65890.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 21 bytes[39m
- 66390.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 119 bytes[39m
- 66750.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 43 bytes[39m
- 66990.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 78 bytes[39m
- 67220.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 12 bytes[39m
- 67350.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 36 bytes[39m
- 67410.03ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
- 67410.03ns [34mINFO    [39m ..coroutine.run_test.0x7f5c15249390       decorators.py:112  in send                            [34m[39m
- 67410.03ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_032[39m
- 67410.03ns [34mINFO    [39m cocotb.regression                         regression.py:127  in tear_down                       [34mPassed 32 tests (0 skipped)[39m
- 67410.03ns [34mINFO    [39m cocotb.regression                         regression.py:128  in tear_down                       [34mShutting down...[39m
+ 59080.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 124 bytes[39m
+ 59180.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 67 bytes[39m
+ 59730.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 121 bytes[39m
+ 59850.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 32 bytes[39m
+ 60260.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 77 bytes[39m
+ 60570.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 143 bytes[39m
+ 60730.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 21 bytes[39m
+ 60950.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 4 bytes[39m
+ 61350.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 106 bytes[39m
+ 61370.03ns [34mINFO    [39m cocotb.endian_swapper.stream_out              avalon.py:117  in _monitor_recv                   [34mReceived a packet of 5 bytes[39m
+ 61430.03ns [34mINFO    [39m cocotb.endian_swapper              .._endian_swapper.py:148  in run_test                        [34mDUT correctly counted 10 packets[39m
+ 61430.03ns [34mINFO    [39m ..coroutine.run_test.0x7f1eb51c2d50       decorators.py:112  in send                            [34m[39m
+ 61430.03ns [34mINFO    [39m cocotb.regression                         regression.py:151  in handle_result                   [34mTest Passed: run_test_032[39m
+ 61430.03ns [34mINFO    [39m cocotb.regression                         regression.py:127  in tear_down                       [34mPassed 32 tests (0 skipped)[39m
+ 61430.03ns [34mINFO    [39m cocotb.regression                         regression.py:128  in tear_down                       [34mShutting down...[39m
 # RUNTIME: Info: RUNTIME_0068 $finish called.
-# KERNEL: Time: 67410032 ps,  Iteration: 0,  TOP instance.
-# KERNEL: stopped at time: 67410032 ps
+# KERNEL: Time: 61430032 ps,  Iteration: 0,  TOP instance.
+# KERNEL: stopped at time: 61430032 ps
 # VSIM: Simulation has finished. There are no more test vectors to simulate.
 endsim
 # VSIM: Simulation has finished.
